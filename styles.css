@@ -1,0 +1,48 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first {
+    display: flex;
+    padding: 100px;
+    height: 200px;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.first .left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.first .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.first .subtext {
+    font-size: 18px;
+    color: #e5e7e3;
+}
+
+.sign-up {
+    width: 90px;
+    text-overflow: clip;
+    background-color: #3882f6;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    width: 400px;
+}
+
